@@ -1,0 +1,17 @@
+{
+	"name": "bittorrent-client",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/zhouyuxiang0/bittorrent-client.git",
+	"author": "zhouyuxiang@epaynfc.com <zhouyuxiang@epaynfc.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "ts-node --project tsconfig.json main.ts"
+	},
+	"dependencies": {
+		"bencode": "^2.0.3"
+	},
+	"devDependencies": {
+		"@types/bencode": "^2.0.1"
+	}
+}
